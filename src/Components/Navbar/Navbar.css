@@ -16,6 +16,7 @@ nav{
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     z-index: 1000;
     height: 70px;
+    padding: 30px;
 }
 
 nav .logo img{
@@ -52,6 +53,10 @@ nav nav ul li a::after{
 
 nav nav ul li a:hover::after{
     width: 100%;
+}
+
+nav .icon {
+    display: flex;
 }
 
 nav ul li a:hover{
