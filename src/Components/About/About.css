@@ -53,3 +53,11 @@
     margin-bottom: 3%;
     font-size: 25px;
 }
+
+.about-page .brief{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
