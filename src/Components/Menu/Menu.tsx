@@ -1,4 +1,3 @@
-import React from 'react'
 import '../Menu/Menu.css'
 import burger from '../assets/buger.jpg'
 import pasta from '../assets/pasta.jpg'
