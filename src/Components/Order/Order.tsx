@@ -1,4 +1,3 @@
-import React from 'react';
 import '../Order/Order.css'
 import imageorder from '../assets/order_image.png'
 

@@ -1,4 +1,3 @@
-import React from 'react'
 import '../Team/Team.css'
 import chef1 from '../assets/chef1.png'
 import chef2 from '../assets/chef2.png'

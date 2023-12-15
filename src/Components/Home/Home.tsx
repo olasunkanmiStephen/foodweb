@@ -1,4 +1,3 @@
-import React from 'react';
 import main from '../assets/main_img.png';
 import '../Home/Home.css';
 

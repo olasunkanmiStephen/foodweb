@@ -1,4 +1,3 @@
-import React from 'react'
 import '../Gallery/Gallery.css'
 import one from '../assets/gallary_1.jpg'
 import two from '../assets/gallary_2.jpg'
