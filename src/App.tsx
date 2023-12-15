@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Home/Home';
 import About from './Components/About/About';
@@ -12,6 +12,8 @@ import Footer from './Components/Footer/Footer';
 
 
 function App() {
+  const [alertVisible, setAlertVisibility] = useState(false);
+
   return (
     <>
       <Navbar />

@@ -84,7 +84,7 @@ nav .main{
 }
 
 @media (max-width: 700px) {
-    .nav nav ul{
+     nav ul{
         top: 100%;
         width: 50%;
         right: 0;
@@ -97,13 +97,10 @@ nav .main{
         gap: 30px;
     }
 
-    .ul{
-        opacity: 0;
-    }
+    .ul.open {
+        display: none;
+      }
     
-    .active{
-        opacity: 1;
-    }
 
     .nav nav ul li a{
         font-size: 35px;
