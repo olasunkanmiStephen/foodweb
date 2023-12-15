@@ -26,24 +26,25 @@
     font-weight: 550;
 }
 
-.tag p, .brief p{
+.brief p{
     font-size: 20px;
+    margin: 0%;
 }
 
 .as img,.first-page img{
     width: 57%;
 }
 
-/* .a button{
+.a button{
     outline: none;
     border: 0;
     padding: 8px 15px;
     margin-left: 7%;
     margin-top: 171px;
-    background-color: orange;
+    background-color: rgb(250, 248, 243);
     border-radius: 5px;
     color: azure;
-} */
+}
 
 .brief button{
     margin-left: 0%;

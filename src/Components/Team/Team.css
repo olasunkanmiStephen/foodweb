@@ -112,3 +112,70 @@
 .team .team_box .profile .info .team_icon i:hover{
     color: #fac031;
 }
+
+@media (max-width: 1160px){
+    .team{
+        margin-top: 40%;
+        margin-bottom: 40em;
+    }
+
+    .team .team_box{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-gap: 20%;
+       margin-top: -10%;
+       margin-bottom: 70%;
+    }
+
+    .team .team_box .profile{
+        width: 100%;
+        border-radius: 50%;
+        margin: 0 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        box-shadow: 0 0 8px rgba(0,0,0,0.5);
+        transition: 0.4s;
+    }
+    }
+
+    @media (max-width: 700px) {
+        .team{
+            margin-top: 33rem;
+        }
+
+        
+    .team h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 55px;
+        margin-bottom: 90px;
+    }
+    }
+
+    @media (max-width: 500px) {
+        .team .team_box{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-gap: 10%;
+            margin-top: -10%;
+            margin-bottom: 70%;
+            width: 70%;
+         }
+
+         .team h1{
+            font-size: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap
+            ;
+        }
+        
+        .team{
+            width: 100vw;
+            margin-top: 19em;
+        }
+    }

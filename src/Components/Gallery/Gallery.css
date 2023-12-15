@@ -98,3 +98,13 @@
     opacity: 1;
     transform: translateY(0);
 }
+
+@media (max-width: 1160px){
+    .gallary .gallary_image_box{
+        width: 95%;
+        margin: 10px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+    }

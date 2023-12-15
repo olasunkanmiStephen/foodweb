@@ -57,3 +57,36 @@ footer .end span{
     background: #fac031;
     border-radius: 15px;
 }
+
+@media (max-width: 500px) {
+    
+    footer{
+        width: 100vw;
+        margin-top: 49em;
+    }
+
+    footer .footer_main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer .footer_main .footer_tag{
+        text-align: start;
+        padding-bottom: 5%;
+    }
+    
+    footer .footer_main .footer_tag h2{
+        color: #000;
+        margin-bottom: 25px;
+        font-size: 30px;
+    }
+    
+    footer .footer_main .footer_tag p{
+        margin: 10px 0;
+    }
+    
+    footer .footer_main .footer_tag i{
+        margin: 0 5px;
+        cursor: pointer;
+    }
+}
