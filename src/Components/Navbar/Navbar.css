@@ -97,10 +97,9 @@ nav .main{
         gap: 30px;
     }
 
-    .ul.open {
+    .ul.hidden {
         display: none;
       }
-    
 
     .nav nav ul li a{
         font-size: 35px;
