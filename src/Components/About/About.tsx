@@ -1,4 +1,3 @@
-import React from 'react'
 import two from '../assets/Food-Plate.png'
 import '../About/About.css'
 
