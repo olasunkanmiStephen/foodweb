@@ -3,7 +3,7 @@ import './Navbar.css';
 import logo from '../assets/logo.png';
 
 interface Props {
-  // Remove 'onClick' if it's not used in this component
+  onClick: () => void;
 }
 
 const Navbar: React.FC<Props> = () => {
